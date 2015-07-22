@@ -1,0 +1,26 @@
+#footer {
+  background-color: @ms-black;
+  color: @ms-yellow;
+
+  .footer-header {
+    color: @ms-black;
+    background-color: @ms-yellow;
+    padding: 3px 6px;
+    font-size: @font-size-base;
+  }
+
+  .copyright {
+    color: @gray-light;
+  }
+
+
+  li > a {
+    color: @ms-yellow;
+    line-height: ceil((@font-size-base * 1.8));
+
+    &:hover {
+      color: @ms-red;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+#content {
+  background-color: @ms-yellow;
+
+  // this was the bootstrap @navbar-margin-bottom variable value, but because
+  // of the way the background colors are, switching the spacing to be padding
+  // at the top of the content block so it looks right.
+  padding-top: @line-height-computed;
+
+  // and this is to give us some breathing room before the footer
+  padding-bottom: 60px;
+
+  // these are classes WP uses to float images, we need to enable them
+  img {
+    .img-responsive;
+
+    &.alignleft {
+      padding-bottom: 12px;
+      .center-block;
+
+      @media (min-width: @screen-sm-min) {
+        .pull-left;
+        padding-right: 12px;
+      }
+    }
+    &.alignright {
+      padding-bottom: 12px;
+      .center-block;
+
+      @media (min-width: @screen-sm-min) {
+        .pull-right;
+        padding-left: 12px;
+      }
+    }
+    &.aligncenter {
+      .center-block;
+    }
+  }
+}

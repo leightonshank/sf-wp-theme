@@ -1,0 +1,87 @@
+#content {
+  // wrap in #content for higher specificity to override defaults
+  #tribe-events-pg-template {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.tribe-events-list-widget{
+  ol {
+    padding-left: 0;
+
+    li .entry-title {
+      margin-bottom: 6px;
+    }
+  }
+}
+
+#tribe-events-bar {
+  #tribe-bar-form {
+    background-color: #fce600;
+
+    input[type='text'] {
+      line-height: 1.2em;
+      border-bottom: 1px solid #000;
+    }
+    .tribe-events-button {
+      background-color: #000;
+      color: #ffd105;
+
+      &:hover {
+        color: #cc9900;
+      }
+    }
+  }
+}
+
+#tribe-events-content {
+  .tribe-events-list-separator-month {
+    padding: 8px;
+    background-color: #000;
+    color: #ffd105;
+  }
+
+  .tribe-events-list-event-title {
+    margin-top: 0;
+  }
+
+  .tribe-events-event-cost {
+    span {
+      background: none;
+      border: none;
+    }
+  }
+
+  .tribe-events-event-meta { }
+  .tribe-events-list-event-description { }
+  .tribe-events-content { }
+
+  .type-tribe_events {
+    border-bottom: none;
+  }
+}
+
+.single-tribe_events {
+  #tribe-events-content {
+    .tribe-events-event-meta {
+      background: none;
+      border-color: #000;
+    }
+  }
+}
+
+
+.tribe-events-button {
+  background-color: #000;
+  color: #ffd105;
+}
+
+#tribe-events {
+  #tribe-events-content {
+    .tribe-events-button {
+      .tribe-events-button()
+    }
+  }
+}

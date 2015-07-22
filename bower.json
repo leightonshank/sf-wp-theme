@@ -1,0 +1,20 @@
+{
+  "name": "midnightspaghetti",
+  "version": "1.0.0",
+  "authors": [
+    "midnight spaghetti"
+  ],
+  "description": "wordpress theme for midnight spaghetti website",
+  "license": "none",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "fontawesome": "~4.3.0"
+  }
+}

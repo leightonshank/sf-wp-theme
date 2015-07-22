@@ -1,0 +1,24 @@
+#ms-navbar {
+  .navbar-brand {
+    padding-top: 6px;
+    padding-bottom: 0;
+  }
+
+  .current-menu-item {
+    a {
+      background-color: @ms-yellow;
+      color: @ms-black;
+    }
+  }
+
+  li > a {
+    font-size: @ms-navbar-font-size;
+    font-weight: bold;
+  }
+
+  .social-links {
+    li > a {
+      font-size: ceil((@ms-navbar-font-size * 1.25));
+    }
+  }
+}

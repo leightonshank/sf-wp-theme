@@ -1,0 +1,264 @@
+/*
+Theme Name: Midnight Spaghetti
+Author: Leigton Shank
+Description:  theme for Midnight Spaghetti site
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+  background-color: #000;
+}
+
+.content {
+  background-color: #fce600;
+  padding-top: 10px;
+}
+
+#menu.ms-navbar {
+  color: #ffd105;
+  background-color: #000;
+}
+
+/** ^^ new ^^ **/
+
+.tribe-events-list-widget ol {
+  padding-left: 0;
+}
+
+.tribe-events-list-widget ol li .entry-title {
+  margin-bottom: 6px;
+}
+
+#feed .sticky .entry-title {
+  background-color: #000;
+  padding: 3px 6px;
+  margin-bottom: 6px;
+}
+#feed .sticky .entry-title a {
+  color: #ffd105;
+}
+#feed .sticky .entry-title a:hover {
+  color: #cc9900;
+}
+
+img.alignleft {
+  float: left;
+  padding-right: 12px;
+  padding-bottom: 12px;
+}
+img.alignright {
+  float: right;
+  padding-left: 12px;
+  padding-bottom: 12px;
+}
+
+/*
+#menu {
+  margin-top: 3px;
+  color: #ffd105;
+  height: 60px;
+}
+
+#menu .branded {
+  float: left;
+  width: 60px;
+  padding: 0;
+  margin: 0;
+
+}
+#menu .branded a {
+  display: block;
+  height: 60px;
+  background-image: url('images/rightbuddha-sm.png');
+  background-repeat: no-repeat;
+  text-indent: -1000px;
+}
+
+#menu .main-navigation {
+  height: 60px;
+  float: left;
+}
+
+#menu .social {
+  float: right;
+  height: 60px;
+}
+#menu .social a {
+}
+
+#menu ul
+{
+  list-style:none;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0
+}
+
+#menu ul a
+{
+  display:block;
+  text-decoration:none;
+  color: #ffd105;
+  font-weight:700;
+  line-height:60px;
+  font-size: 21px;
+  padding:0 15px;
+}
+
+#menu ul a:hover {
+  color: #cc9900;
+}
+
+#menu ul li
+{
+  position:relative;
+  float: left;
+  margin:0;
+  padding:0;
+}
+
+#menu ul li.current-menu-item a
+{
+  color: #db1a21
+}
+
+#menu ul li:hover
+{
+  background:#000
+}
+
+#menu ul ul
+{
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#000;
+  padding:0;
+  z-index: 1000;
+  border-bottom: 3px solid #db1a21;
+  border-left: 3px solid #db1a21;
+  border-right: 3px solid #db1a21;
+}
+
+#menu ul ul li
+{
+  float:none;
+  width:200px
+}
+
+#menu ul ul a
+{
+  line-height:120%;
+  padding:10px 15px
+}
+
+#menu ul ul ul
+{
+  top:0;
+  left:100%
+}
+
+#menu ul li:hover > ul
+{
+  display:block
+}
+*/
+
+#main.ui.grid {
+  margin-top: 0;
+}
+
+#midnight {
+  padding-top: 6rem;
+}
+
+#gstrings {
+  padding-top: 7rem;
+}
+
+#footer {
+  margin-top: 14px;
+  background-color: #000000;
+  color: #FFD105;
+}
+#footer h3 {
+  color: #FFD105;
+  text-decoration: underline;
+  font-size: 16px;
+}
+#footernav .footer-menu {
+  list-style-type: none;
+  padding-left: 0;
+}
+#footernav .footer-menu li {
+  padding: 0.3em 0;
+}
+#footernav .footer-menu li:first-child {
+  padding-top: 0;
+}
+#footernav a {
+  color: #ffd105;
+  line-height: 1.2;
+}
+#footer a:hover {
+  color: #cc9900;
+}
+
+#tribe-events-bar #tribe-bar-form {
+  background-color: #fce600;
+}
+#tribe-events-bar #tribe-bar-form label {
+}
+#tribe-events-bar #tribe-bar-form input[type='text'] {
+  line-height: 1.2em;
+  border-bottom: 1px solid #000;
+}
+#tribe-events-bar #tribe-bar-form .tribe-events-button {
+  background-color: #000;
+  color: #ffd105;
+}
+
+#tribe-events-bar #tribe-bar-form .tribe-events-button:hover {
+  color: #cc9900;
+}
+
+#tribe-events-content .tribe-events-list-separator-month {
+  padding: 8px;
+  background-color: #000;
+  color: #ffd105;
+}
+
+#tribe-events-content .tribe-events-list-event-title {
+  margin-top: 0;
+}
+#tribe-events-content .tribe-events-event-cost span {
+  background: none;
+  border: none;
+}
+
+#tribe-events-content .tribe-events-event-meta {
+}
+#tribe-events-content .tribe-events-list-event-description {
+}
+
+#tribe-events #tribe-events-content .tribe-events-content {
+}
+#tribe-events-content .type-tribe_events {
+  border-bottom: none;
+}
+
+.single-tribe_events #tribe-events-content .tribe-events-event-meta {
+  background: none;
+  border-color: #000;
+}
+#tribe-events #tribe-events-content .tribe-events-button, .tribe-events-button {
+  background-color: #000;
+  color: #ffd105;
+}
