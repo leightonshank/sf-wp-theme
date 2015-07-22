@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/bower_components/fontawesome/css/font-awesome.css" />
   <!-- endbower -->
 
-  <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/css/midnightspaghetti.css" />
+  <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/css/spaghettifest.css" />
 
   <?php wp_head(); ?>
 
@@ -34,7 +34,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="/">
-          <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/rightbuddha-sm.png" alt="Midnight Spaghetti" width="44" height="60" />
+          <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/apollo-13-sm.png" alt="Spaghettifest" width="60" height="60" />
         </a>
       </div>
 

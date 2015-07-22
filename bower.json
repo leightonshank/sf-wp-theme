@@ -1,10 +1,10 @@
 {
-  "name": "midnightspaghetti",
+  "name": "spaghettifest",
   "version": "1.0.0",
   "authors": [
     "midnight spaghetti"
   ],
-  "description": "wordpress theme for midnight spaghetti website",
+  "description": "wordpress theme for spaghettifest website",
   "license": "none",
   "ignore": [
     "**/.*",

@@ -20,10 +20,7 @@ function midnightspaghetti_widgets_init() {
 	register_nav_menus( array(
 		'primary' => 'Top Menu',
 		'social' => 'Social Navbar Menu',
-		'footer' => 'Midnight Spaghetti Menu',
-		'contact' => 'Contact Us Menu',
-		'press' => 'Press Menu',
-		'media' => 'Media Menu',
+		'footer' => 'Footer Menu'
 	) );
 }
 add_action( 'widgets_init', 'midnightspaghetti_widgets_init' );

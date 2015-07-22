@@ -7,14 +7,8 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="jumbotron">
-          <div class="visible-xs-block visible-sm-block">
-            <img class="aligncenter" alt="Midnight Spaghetti and the Chocolate G-Strings"
-                 src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner-xs.png" />
-          </div>
-          <div class="hidden-xs hidden-sm">
-            <img class="aligncenter" alt="Midnight Spaghetti and the Chocolate G-Strings"
-                 src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner-md.png" />
-          </div>
+          <img class="aligncenter" alt="Spaghettifest 13" height="300" width="300"
+               src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/apollo-13.png" />
         </div>
       </div>
     </div>

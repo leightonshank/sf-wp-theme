@@ -1,7 +1,7 @@
 {
-  "name": "midnightspaghetti",
-  "description": "wordpress theme for the midnight spaghetti web site",
-  "homepage": "http://midnightspaghetti.com",
+  "name": "spaghettifest",
+  "description": "wordpress theme for the spaghettifest web site",
+  "homepage": "http://spaghettifest.com",
   "author": "Midnight Spaghetti",
   "version": "1.0.0",
   "devDependencies": {
