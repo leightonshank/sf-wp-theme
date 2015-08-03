@@ -124,7 +124,7 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['wiredep']);
 
-  grunt.registerTask('less-compile', ['less:compileCore']);
+  grunt.registerTask('css', ['less:compileCore', 'autoprefixer:core']);
   grunt.registerTask('dist-css', ['less-compile', 'autoprefixer:core', 'csscomb:dist', 'cssmin:minifyCore']);
 
   grunt.registerTask('dist', ['clean:dist', 'dist-css']);

@@ -7,8 +7,15 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="jumbotron">
-          <img class="aligncenter" alt="Spaghettifest 13" height="300" width="300"
-               src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/apollo-13.png" />
+          <div id="starfield">
+            <div class="stars distant"></div>
+            <div class="stars midrange"></div>
+            <div class="stars near"></div>
+            <div class="overlay">
+              <img class="aligncenter" alt="Spaghettifest 13" height="300" width="300"
+                   src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/apollo-13.png" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

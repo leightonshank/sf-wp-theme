@@ -1,0 +1,88 @@
+.createStarfield(@star-size, @num-stars, @duration, @field-size, @star-color) {
+  
+  .generate() {  // init
+    @offset-x: `Math.ceil(Math.random() * @{field-size})`;
+    @offset-y: `Math.ceil(Math.random() * @{field-size})`;
+    @star: ~'@{offset-x}px @{offset-y}px @{star-color}';
+    .generate((@num-stars - 1), @star);
+  }
+  .generate(@index, @field) when (@index > 0) {  // loop
+    @offset-x: `Math.ceil(Math.random() * @{field-size})`;
+    @offset-y: `Math.ceil(Math.random() * @{field-size})`;
+    @star: ~'@{offset-x}px @{offset-y}px @{star-color}';
+    .generate((@index - 1), ~'@{field}, @{star}');
+  }
+  .generate(@index, @field) when (@index = 0) { // end
+    @starfield: @field;
+  }
+  
+  .set(@field) {
+    .starfield() {
+      width: @star-size;
+      height: @star-size;
+      background: transparent;
+      box-shadow: @field;
+      animation: animateStars @duration linear infinite;
+      
+      &:after {
+        content: " ";
+        position: absolute;
+        top: ~'@{field-size}px';
+        width: @star-size;
+        height: @star-size;
+        background: transparent;
+        box-shadow: @field;
+      }
+    }
+  }
+  
+  .generate();
+  .set(@starfield);
+}
+
+#starfield {
+  height: 450px;
+  background: black;
+  overflow: hidden;
+
+  .stars {
+    &.distant {
+      .createStarfield(1px, 700, 200s, 1140, #fff);
+      .starfield();
+    }
+    
+    &.midrange {
+      .createStarfield(2px, 200, 150s, 1140, #fff);
+      .starfield();
+    }
+    
+    &.near {
+      .createStarfield(3px, 100, 100s, 1140, #fff);
+      .starfield();
+    }
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -150px;
+    text-align: center;  
+  }
+}
+
+@keyframes animateStars {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+
+.container {
+  .jumbotron {
+    padding: 0;
+  }
+}
